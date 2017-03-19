@@ -1,0 +1,15 @@
+# ignore everything
+*
+
+# except
+!.gitignore
+!data
+!extractors
+!node_modules
+!visualisations
+!package.json
+!server.js
+!d3
+
+# ...even if they are in subdirectories
+!*/
