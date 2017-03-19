@@ -10,14 +10,14 @@ app1.use(express.static(__dirname + '/data'));
 app1.use(express.static(__dirname + '/d3'));
 
 // Visualization 2: Bar Chart
-app2.use(express.static(__dirname + '/visualisations' + '/pie_chart'));
+app2.use(express.static(__dirname + '/visualisations' + '/bar_chart'));
 app2.use(express.static(__dirname + '/data'));
 app2.use(express.static(__dirname + '/d3'));
 
 // Visualization 3: Line Graph
-app2.use(express.static(__dirname + '/visualisations' + '/heatmap'));
-app2.use(express.static(__dirname + '/data'));
-app2.use(express.static(__dirname + '/d3'));
+app3.use(express.static(__dirname + '/visualisations' + '/line_graph'));
+app3.use(express.static(__dirname + '/data'));
+app3.use(express.static(__dirname + '/d3'));
 
 var port1 = 4000;
 var port2 = 4001;

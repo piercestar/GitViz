@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>GitViz</title>
+    <link rel="stylesheet" href="normalize.css">
+    <script src="d3.v3.min.js"></script>
+    <style>
+    .x-axis path, .y-axis path{
+      fill: none;
+      stroke: grey;
+      stroke-width: 1;
+      shape-rendering: crispEdges;
+    }
+
+    #objective3 {
+      width: 870px;
+      height: 400px;
+    }
+    </style>
+  </head>
+
+  <body>
+    <!-- Visualize the sum of commits for 
+      1. Authors whose names start from 'A-M'
+      2. Authors whose names start from 'N-Z'
+    per day for the month of Jan 2016 -->
+    <div id='objective3'></div>
+    <script type="text/javascript" src='js/line_graph.js'></script>
+  </body>
+</html>
