@@ -26,3 +26,5 @@ For any errors, first try this: <br>
 1. Run the command `npm install`. <br>
 
 This will download a new node_modules folder which should solve most problems. <br>
+
+If you make any changes to the server.js file, don't forget to restart the server (using `node server.js`) in order to view your changes. <br>
