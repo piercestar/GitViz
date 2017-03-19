@@ -23,5 +23,5 @@ Express will only look for the index.html file in the directory specified by the
 # Errors
 For any errors, first try this: <br>
 1. Delete the `node_modules` folder. <br>
-1. Run the command `npm install`. 
+1. Run the command `npm install`. <br>
 This will download a new node_modules folder which should solve most problems. <br>
