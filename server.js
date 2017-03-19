@@ -1,9 +1,9 @@
 var express = require('express');
 var app = express();
 
-app.use(express.static(__dirname + '/pie_chart'));
+app.use(express.static(__dirname + '/visualisations' + '/heatmap'));
 app.use(express.static(__dirname + '/data'));
-app.use(express.static(__dirname));
+app.use(express.static(__dirname + '/d3'));
 
 var port = 4000;
 app.listen(port);
