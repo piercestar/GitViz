@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 
-app.use(express.static(__dirname + '/visualisations' + '/heatmap'));
+app.use(express.static(__dirname + '/visualisations' + '/bubble_chart'));
 app.use(express.static(__dirname + '/data'));
 app.use(express.static(__dirname + '/d3'));
 
